@@ -1,0 +1,28 @@
+.brand{
+    text-align: center;
+    display: flex;
+    color: white;
+}
+.register-section{
+    display: flex;
+    flex-direction: column ;
+    gap: 2rem;
+    background-color: rgb(32, 12, 51);
+    padding: 2rem 3rem;
+    color: white;
+    border-radius: 20px;
+}
+.register-inp{
+    border: none;
+    background-color: transparent;
+    border: 0.1rem solid rgb(233, 229, 229);
+    padding: .5rem;
+    border-radius: 0.3rem ;
+    color: white;
+    outline: none;
+    width: 250px;
+}
+.register-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+}

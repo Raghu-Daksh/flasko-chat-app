@@ -1,0 +1,86 @@
+.contact-section {
+  display: grid;
+  grid-template-rows: 10% 75% 15%;
+  overflow: hidden;
+  background-color: #3e0d77;
+}
+::-webkit-scrollbar {
+  width: 0.2rem;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffffff39;
+  border-radius: 10px;
+}
+.brand {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(40, 15, 65);
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1.5rem;
+}
+.contact-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.brand img {
+  height: 2rem;
+}
+.brand h3 {
+  color: white;
+  text-transform: uppercase;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  gap: 0.8rem;
+  padding: 1rem;
+}
+.contact {
+  box-shadow: 0 0 2px;
+  min-height: 4rem;
+  width: 90%;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  padding: 0.4rem;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+}
+.contact .contact-avatar img {
+  height: 3rem;
+}
+.contact .contact-username h3 {
+  color: rgb(255, 255, 255);
+}
+.contact-selected {
+  background-color: rgb(32, 26, 107);
+  color: white;
+}
+.current-user {
+  background-color: #0b0933;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.current-user .cu-avatar img {
+  height: 4rem;
+  max-inline-size: 100%;
+}
+.current-user .cu-username h1 {
+  color: white;
+}
+.hamburger ion-icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+.hamburger {
+  display: none;
+}
+
+

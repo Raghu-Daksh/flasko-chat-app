@@ -1,0 +1,59 @@
+.avatar-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width:  100vw;;
+    gap: 2rem;
+}
+.title-container h1{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.avatars{
+    display: flex;
+    gap: 2rem;;
+    cursor: pointer;
+}
+.avatar{
+    border: 0.4rem solid transparent;
+    padding: 0.1rem;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+
+}
+.avatar:hover{
+    box-shadow: 0 0 10px white;
+}
+.avatar img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    box-shadow: 0 0 5px white;
+}
+.selected{
+    border: 0.4rem solid rgb(21, 4, 95);
+}
+.avatar-btn{
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 1s ease;
+    background-color: rgb(56, 6, 148);
+    border-radius: 0.5rem;
+    color: white;
+
+}
+.avatar-btn:hover{
+    background-color: rgb(31, 3, 56);
+    color: white;
+    transition: 1s ease;
+    box-shadow: 0 0 15px white;
+    border-radius: 2rem;
+}

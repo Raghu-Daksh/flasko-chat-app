@@ -1,0 +1,89 @@
+.ChatInput {
+  display: grid;
+  grid-template-columns: 5% 95%;
+  align-items: center;
+  background-color: rgb(35, 10, 58);
+  padding: 0.2rem;
+  padding-bottom: 0.3rem;
+}
+.ChatInput .btn-container {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 1rem;
+}
+.btn-container .emoji {
+  position: relative;
+}
+.btn-container .emoji svg {
+  font-size: 1.5rem;
+  color: rgb(200, 235, 3);
+  cursor: pointer;
+}
+.btn-container .emoji .emoji-picker-react {
+  position: absolute;
+  top: -350px;
+  background-color: #080420;
+  box-shadow: 0 5px 10px #9a86f3;
+  border-color: #9a86f3;  
+}
+.btn-container
+  .emoji
+  .emoji-picker-react
+  .emoji-scroll-wrapper::-webkit-scrollbar {
+  background-color: #080420;
+  width: 5px;
+}
+.btn-container
+  .emoji
+  .emoji-picker-react
+  .emoji-scroll-wrapper::-webkit-scrollbar
+  thumb {
+  background-color: #9a86f3;
+}
+
+.btn-container .emoji .emoji-picker-react .emoji-categories button {
+  filter: contrast(0);
+  color: aliceblue;
+}
+
+.btn-container .emoji .emoji-picker-react .emoji-search {
+  background-color: transparent;
+  border-color: #9a86f3;
+}
+.btn-container .emoji .emoji-picker-react .emoji-group:before {
+  background-color: #080420;
+}
+
+.inp-container {
+  width: 90%;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: #ffffff39;
+}
+.inp-container button {
+  padding: 0.4rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  background-color: #3e0d77;
+  border: none;
+}
+.inp-container button svg {
+  color: white;
+  font-size: 1.2rem;
+}
+.inp-chatInput {
+  width: 90%;
+  height: 60%;
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding-left: 3rem;
+  font-size: 1rem;
+  padding: 0.4rem 1rem;
+  outline: none;
+}

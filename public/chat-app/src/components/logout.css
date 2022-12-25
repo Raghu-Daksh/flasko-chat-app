@@ -1,0 +1,12 @@
+.logout-btn {
+    background-color: rgb(33, 4, 61);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: wheat;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
