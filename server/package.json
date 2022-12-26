@@ -6,9 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "server": "nodemon index.js",
-    "chat-app": "npm start --prefix chat-app",
-    "dev": "concurrently \"npm run server\" \"npm run chat-app\""
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
