@@ -8,10 +8,12 @@ const socket = require("socket.io");
 const messageRoute = require("./routes/messagesRoute");
 const path = require('path');
 const { ppid } = require("process");
-require('dotenv').config();
-const PORT = process.env.PORT || 9000;
 
 
+
+
+
+const PORTS = process.env.PORT || 9000;
 app.use(cors());
 app.use(express.json());
 app.use("/api/auth", userRouter);
@@ -29,8 +31,8 @@ mongoose
   //   res.sendFile(path.join(__dirname, '../public/chat-app /build/index.html'));
   // })
 
-const server = app.listen((PORT) => {
-  console.log(`server started ${PORT}`);
+const server = app.listen(PORTS, () => {
+  console.log(`server started ${PORTS}`);
 });
 
 const io = socket(server, {
